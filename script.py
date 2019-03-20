@@ -12,7 +12,8 @@ class Game:
 
 def create():
     file_name= raw_input("Folder and file name (eg: pres-cal-col): ")
-    path = os.path.abspath("/media/aaron/Elements/ugmo/media/") # DEFAULT
+    # FILL THIS WITH YOUR OWN DEFAULT PATH
+    path = os.path.abspath("")
     while True:
         new_path = raw_input("Path (default is \'" + path + "\'): ")
         if new_path == "":
